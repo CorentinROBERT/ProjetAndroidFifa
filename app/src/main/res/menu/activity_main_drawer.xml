@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item android:title="Home">
+            <menu>
+                <item
+                    android:id="@+id/HomePage"
+                    android:icon="@drawable/ic_home"
+                    android:title="Home Page"
+                />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Internet site">
+            <menu>
+                <item
+                    android:id="@+id/Futbin"
+                    android:icon="@drawable/ic_futbin"
+                    android:title="Fut Bin" />
+                <item
+                    android:id="@+id/futhead"
+                    android:icon="@drawable/ic_futhead"
+                    android:title="Fut Head" />
+                <item
+                    android:id="@+id/appfut"
+                    android:icon="@drawable/ic_fut19"
+                    android:title="Official App" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/nav_photo"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Photo Picker"
+                />
+        </menu>
+    </item>
+    <group>
+        <item android:title="Other">
+            <menu>
+                <item
+                    android:id="@+id/Patisseries"
+                    android:icon="@drawable/ic_cupcake"
+                    android:title="Patisseries"
+                    />
+            </menu>
+        </item>
+    </group>
+
+</menu>

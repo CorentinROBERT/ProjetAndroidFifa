@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">FifaProPerso</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">FifaProPerso</string>
+    <string name="nav_header_subtitle">FifaCorp</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_searchPlayer">Search player</string>
+
+    <string-array name="carte_fut">
+        <item name="Kevin DeBruyne">@drawable/ic_debruyne</item>
+        <item name="David DeGea">@drawable/ic_degea</item>
+        <item name="Eden Hazard">@drawable/ic_hazard</item>
+        <item name="Toni Kroos">@drawable/ic_kroos</item>
+    </string-array>
+
+    <string-array name="titre_carte_fut">
+        <item name="Kevin DeBruyne">Kevin De Bruyne</item>
+        <item name="David DeGea">David De Gea</item>
+        <item name="Eden Hazard">Eden Hazard</item>
+        <item name="Toni Kroos">Toni Kroos</item>
+    </string-array>
+
+    <string-array name="description_carte_fut">
+        <item name="Kevin DeBruyne">Joueur Belge evolue au poste de milieu offensif dans le club de Manchester City</item>
+        <item name="David DeGea">Joueur Espagnol evolue au poste de gardien de but dans le club de Manchester United</item>
+        <item name="Eden Hazard">Joueur Belge evolue au poste d attaquant dans le club de Chelsea</item>
+        <item name="Toni Kroos">Joueur Allemand evolue au poste de milieux de terrain dans le club du Real de Madrid</item>
+    </string-array>
+
+    <string-array name="name">
+        <item>Honeycomb</item>
+        <item>Gingerbread</item>
+        <item>Ice Cream Sandwich</item>
+        <item>Jelly Bean</item>
+        <item>KitKat</item>
+        <item>Lollipop</item>
+        <item>Marshmallow</item>
+        <item>Nougat</item>
+        <item>Oreo</item>
+        <item>Pie</item>
+
+    </string-array>
+
+    <string-array name="version">
+        <item>version 3.0</item>
+        <item>version 2.3</item>
+        <item>version 4.0.1</item>
+        <item>version 4.1</item>
+        <item>version 4.4.2</item>
+        <item>version 5.0</item>
+        <item>version 6.0</item>
+        <item>version 7.0</item>
+        <item>version 8.0</item>
+        <item>version 9.0</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
