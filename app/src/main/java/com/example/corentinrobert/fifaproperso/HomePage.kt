@@ -25,37 +25,6 @@ class HomePage : Fragment(),AnkoLogger{
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        var i = 1
 
-        val carte_fut_titre = resources.getStringArray(R.array.titre_carte_fut)
-        val carte_fut_description = resources.getStringArray(R.array.description_carte_fut)
-
-        val images: IntArray = intArrayOf(
-                R.drawable.ic_debruyne,
-                R.drawable.ic_degea,
-                R.drawable.ic_hazard,
-                R.drawable.ic_kroos
-        )
-
-        imgView.setImageResource(images[i-1])
-        txtView_titre.setText(carte_fut_titre.get(i-1))
-        txtView_description.setText(carte_fut_description.get(i-1))
-
-        btn_precedent.setOnClickListener(){
-            i--
-            if(i<1)
-                i=carte_fut_titre.size
-            imgView.setImageResource(images[i-1])
-            txtView_titre.setText(carte_fut_titre.get(i-1))
-            txtView_description.setText(carte_fut_description.get(i-1))
-        }
-        btn_suivant.setOnClickListener(){
-            i++
-            if(i>carte_fut_titre.size)
-                i=1
-            imgView.setImageResource(images[i-1])
-            txtView_titre.setText(carte_fut_titre.get(i-1))
-            txtView_description.setText(carte_fut_description.get(i-1))
-        }
     }
 }

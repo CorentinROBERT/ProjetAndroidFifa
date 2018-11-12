@@ -84,6 +84,19 @@
         <item>Didier Deschamps</item>
     </string-array>
 
+    <string-array name="joueurs">
+        <item>Ronaldo</item>
+        <item>Messi</item>
+        <item>Neymar</item>
+        <item>Modric</item>
+        <item>De Bruyne</item>
+        <item>Hazard</item>
+        <item>Ramos</item>
+        <item>Suarez</item>
+        <item>De Gea</item>
+        <item>Kroos</item>
+    </string-array>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="citations">Citations</string>
