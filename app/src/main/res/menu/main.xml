@@ -8,9 +8,9 @@
         android:title="@string/action_settings"
         app:showAsAction="ifRoom"/>
     <item
-        android:id="@+id/action_searchPlayer"
+        android:id="@+id/citation"
         android:icon="@color/colorAccent"
-        android:title="@string/action_searchPlayer"
+        android:title="@string/citations"
         app:showAsAction="ifRoom">
 
     </item>

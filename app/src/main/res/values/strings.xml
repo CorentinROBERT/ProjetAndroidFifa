@@ -56,6 +56,35 @@
         <item>version 9.0</item>
     </string-array>
 
+    <string-array name="citation">
+        <item>La seule chose que nous ne pouvons pas controler ce sont nos supporters.</item>
+        <item>Michael Jordan a domine son sport  Messi fait la meme chose.</item>
+        <item>Si cela permet de grandir ce sera un episode positif. Il y a des cicatrices qui font avancer.</item>
+        <item>Une equipe de foot c est comme une belle femme. Quand on ne le lui dit pas elle oublie qu elle est belle.</item>
+        <item>A quoi bon copier le jeu d une equipe meme si celui ci te plait. Si tu n as pas les memes joueurs </item>
+        <item>Les Anglais ont invente le foot les Francais l ont organise les Italiens le mettent en scene.</item>
+        <item>Les performances individuelles ce n est pas le plus important. On gagne et on perd en équipe.</item>
+        <item>A la guerre celui qui utilise le mieux ses soldats gagne</item>
+        <item>Les entraîneurs ne sont que les conteurs de l expression des meilleurs joueurs</item>
+        <item>Vous devez avoir du respect sur le terrain.</item>
+        <item>Dans le football comme dans la vie on peut pas avoir que des architectes on doit aussi avoir des macons.</item>
+    </string-array>
+
+    <string-array name="citationAuteur">
+        <item>Jose Mourinho</item>
+        <item>Pep Guardiola</item>
+        <item>Rudi Garcia</item>
+        <item>Arsene Wenger</item>
+        <item>Claudio Ranieri </item>
+        <item>Eric Cantona</item>
+        <item>Zinedine Zidane</item>
+        <item>Diego Simeone</item>
+        <item>Marcelo Bielsa</item>
+        <item>Antonio Conte</item>
+        <item>Didier Deschamps</item>
+    </string-array>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="citations">Citations</string>
 </resources>
