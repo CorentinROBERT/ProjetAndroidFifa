@@ -29,6 +29,7 @@ class HomePage : Fragment(),AnkoLogger{
 
         val carte_fut_titre = resources.getStringArray(R.array.titre_carte_fut)
         val carte_fut_description = resources.getStringArray(R.array.description_carte_fut)
+
         val images: IntArray = intArrayOf(
                 R.drawable.ic_debruyne,
                 R.drawable.ic_degea,

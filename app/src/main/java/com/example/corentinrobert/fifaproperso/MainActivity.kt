@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.support.design.widget.NavigationView
 import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
+import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
@@ -55,6 +56,33 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         when (item.itemId) {
             R.id.action_settings -> {
                 toast("Settings selected")
+                return true
+            }
+            R.id.citation -> {
+
+
+                val citations = resources.getStringArray(R.array.citation)
+                val citationAuteurs = resources.getStringArray(R.array.citationAuteur)
+
+                val i = (Math.random() * (0 - citations.size) + citations.size).toInt()
+
+                val builder = AlertDialog.Builder(this@MainActivity)
+                builder.setTitle("Citations")
+                builder.setMessage(citations[i]+" \n"+citationAuteurs[i])
+
+                builder.setPositiveButton("Autres Citation ?"){dialog, which ->
+                    val i = (Math.random() * (0 - citations.size) + citations.size).toInt()
+                    builder.setMessage(citations[i]+" \n\n\t"+citationAuteurs[i])
+                    builder.create().show()
+
+                }
+
+                builder.setNegativeButton("On arrête là"){dialog, which ->
+
+                }
+
+                val dialog: AlertDialog = builder.create()
+                dialog.show()
                 return true
             }
             else -> {
