@@ -25,6 +25,7 @@ class HomePage : Fragment(),AnkoLogger{
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-
+        webViewHD.loadUrl("http://www.footmercato.net")
+        webView.loadUrl("https://www.sofoot.com/ligue-1-conforama-2018-2019.html")
     }
 }
