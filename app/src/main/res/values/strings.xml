@@ -76,6 +76,84 @@
         <item>Kroos</item>
     </string-array>
 
+    <string-array name="equipedefrance">
+        <item>Hugo Lloris</item>
+        <item>Olivier Giroud</item>
+        <item>Blaise Matuidi</item>
+        <item>Antoine Griezmann</item>
+        <item>Paul Pogba</item>
+        <item>Raphael Varane</item>
+        <item>Adil Rami</item>
+        <item>N Golo Kante</item>
+        <item>Steve Mandanda</item>
+        <item>Samuel Umtiti</item>
+        <item>Kylian Mbappe</item>
+        <item>Djibril Sidibe</item>
+        <item>Nabil Fekir</item>
+        <item>Ousmane Dembele</item>
+        <item>Thomas Lemar</item>
+        <item>Corentin Tolisso</item>
+        <item>Lucas Hernandez</item>
+        <item>Benjamin Pavard</item>
+        <item>Benjamin Mendy</item>
+        <item>Steven Nzonzi</item>
+        <item>Florian Thauvin</item>
+        <item> Presnel Kimpembe</item>
+        <item>Alphonse Areola</item>
+    </string-array>
+
+    <string-array name="equipedefranceclub">
+        <item>Tottenham</item>
+        <item>Chelsea</item>
+        <item>Juventus Turin</item>
+        <item>Atletico de Madrid</item>
+        <item>Manchester United</item>
+        <item>Real Madrid</item>
+        <item>Marseille</item>
+        <item>Chelsea</item>
+        <item>Marseille</item>
+        <item>FC Barcelone</item>
+        <item>Paris-SG</item>
+        <item>Monaco</item>
+        <item>Lyon</item>
+        <item>FC Barcelone</item>
+        <item>Monaco</item>
+        <item>Bayern Munich</item>
+        <item>Atletico de Madrid</item>
+        <item>VfB Stuttgart</item>
+        <item>Manchester City</item>
+        <item>Seville FC</item>
+        <item>Marseille</item>
+        <item>Paris-SG</item>
+        <item>Paris-SG</item>
+    </string-array>
+
+    <string-array name="equipedefranceposte">
+        <item>GAR</item>
+        <item>ATT</item>
+        <item>MIL</item>
+        <item>ATT</item>
+        <item>MIL</item>
+        <item>DEF</item>
+        <item>DEF</item>
+        <item>MIL</item>
+        <item>GAR</item>
+        <item>DEF</item>
+        <item>ATT</item>
+        <item>DEF</item>
+        <item>MIL</item>
+        <item>ATT</item>
+        <item>MIL</item>
+        <item>MIL</item>
+        <item>DEF</item>
+        <item>DEF</item>
+        <item>DEF</item>
+        <item>MIL</item>
+        <item>ATT</item>
+        <item>DEF</item>
+        <item>GAR</item>
+    </string-array>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="citations">Citations</string>

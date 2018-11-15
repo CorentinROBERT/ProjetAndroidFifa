@@ -37,7 +37,7 @@
         </activity>
         <activity android:name=".FutHead" />
         <activity android:name=".FutApp" />
-        <activity android:name=".Patisserie" />
+        <activity android:name=".Edf" />
     </application>
 
 </manifest>

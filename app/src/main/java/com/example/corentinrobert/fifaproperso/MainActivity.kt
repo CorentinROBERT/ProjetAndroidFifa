@@ -103,20 +103,14 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.appfut -> {
                 startActivity(Intent(this,FutApp::class.java))
             }
-            R.id.nav_share -> {
-
-            }
-            R.id.nav_send -> {
-
-            }
             R.id.nav_photo -> {
                 replace(GallerieFragment())
             }
             R.id.HomePage -> {
                 replace(HomePage())
             }
-            R.id.Patisseries -> {
-                startActivity(Intent(this,Patisserie::class.java))
+            R.id.EDFs ->{
+                startActivity(Intent(this,Edf::class.java))
             }
         }
         drawer_layout.closeDrawer(GravityCompat.START)

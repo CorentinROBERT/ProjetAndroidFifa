@@ -7,13 +7,14 @@ import android.view.View
 import android.view.ViewGroup
 import kotlinx.android.synthetic.main.item_my_object.view.*
 
-class AndVersionAdapter(val items: Array<MyObject>) : RecyclerView.Adapter<AndVersionAdapter.ViewHolder>() {
+class AndEDFAdapter(val items: Array<MyObject>) : RecyclerView.Adapter<AndEDFAdapter.ViewHolder>() {
     class ViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
         fun bindMyObject(myObject: MyObject) {
             with(myObject) {
-                itemView.objectName.text = "$name"
-                itemView.objectDescription.text = "$description"
-                itemView.imgPatisserie.setImageResource(img)
+                itemView.imgFrance.setImageResource(logo)
+                itemView.txtNom.text = "$name"
+                itemView.txtClub.text = "$club"
+                itemView.txtPoste.text = "$poste"
             }
         }
     }
@@ -26,8 +27,7 @@ class AndVersionAdapter(val items: Array<MyObject>) : RecyclerView.Adapter<AndVe
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         return ViewHolder(parent.inflate(R.layout.item_my_object))
     }
-
-    fun ViewGroup.inflate(@LayoutRes layoutRes: Int, attachToRoot: Boolean = false): View {
-        return LayoutInflater.from(context).inflate(layoutRes, this, attachToRoot)
+    fun ViewGroup.inflate(@LayoutRes layoutRes: Int, attachRoot: Boolean = false) : View {
+        return  LayoutInflater.from(context).inflate(layoutRes,this,attachRoot)
     }
 }
