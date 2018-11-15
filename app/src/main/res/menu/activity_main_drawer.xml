@@ -43,11 +43,11 @@
         </menu>
     </item>
     <group>
-        <item android:title="Other">
+        <item android:title="Equipe de France">
             <menu>
                 <item
                     android:id="@+id/EDFs"
-                    android:icon="@drawable/ic_soccer_field"
+                    android:icon="@drawable/ic_trophy"
                     android:title="Equipe de france CDM"
                     />
             </menu>

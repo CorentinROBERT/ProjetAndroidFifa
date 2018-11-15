@@ -24,38 +24,9 @@ class Edf : AppCompatActivity(), AnkoLogger {
         val clubArray = resources.getStringArray(R.array.equipedefranceclub)
         val posteArray = resources.getStringArray(R.array.equipedefranceposte)
 
-        val images:IntArray= intArrayOf(
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france,
-                R.drawable.ic_france
-        )
-
         for(k in 0..items.size-1){
-            items[k] = MyObject(images[k],nameArray[k],clubArray[k],posteArray[k])
-            info(images[k])
-            info(nameArray[k])
-            info(clubArray[k])
-            info(posteArray[k])
+            items[k] = MyObject(R.drawable.ic_france,nameArray[k],"Club : "+clubArray[k],"Poste : "+posteArray[k])
+
         }
     }
 }
