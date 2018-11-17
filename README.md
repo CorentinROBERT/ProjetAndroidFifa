@@ -1,7 +1,7 @@
 # ProjetAndroidFifa
 Projet de rendu en relation avec le jeu vidéo Fifa et autour du football
 
-La page principale est composé de 2 card qui sont des webView pour aller sur des sites en rapport avec le marché des transferts ainsi que les résultats / calendrier de la ligue 1 (Championnat français)
+La page principale est composé de 2 cards qui sont des webView pour aller sur des sites en rapport avec le marché des transferts ainsi que les résultats / calendrier de la ligue 1 (Championnat français)
 
 Le menu latéral gauche est composé de 7 parties :<br>
 <ol>
@@ -15,6 +15,6 @@ Le menu latéral gauche est composé de 7 parties :<br>
 </ol>
   
   
- Le menu de droite Affiche des citations liés à des footballeurs
+ Le menu de droite Affiche des citations liés à des footballeurs ou entraineurs célèbres
  
  <strong>Corentin ROBERT</strong>
