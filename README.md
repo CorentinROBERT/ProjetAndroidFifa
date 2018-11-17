@@ -16,3 +16,5 @@ Le menu latéral gauche est composé de 7 parties :<br>
   
   
  Le menu de droite Affiche des citations liés à des footballeurs
+ 
+ <strong>Corentin ROBERT</strong>
