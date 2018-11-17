@@ -10,24 +10,25 @@ import android.view.MotionEvent
 import android.view.View
 import org.jetbrains.anko.AnkoLogger
 
-import com.example.corentinrobert.fifaproperso.matchFragment
-import kotlinx.android.synthetic.main.fragment_match.view.*
 
 class CustomView: AnkoLogger,View {
+
     companion object {
-        val DELTA = 10
-        lateinit var mCircle: MagicBaloon
+        var H:Int=0
+        var B:Int=0
     }
+    private val DELTA = 10
+    private lateinit var mCircle: MagicBaloon
+
     constructor(context: Context?, attrs: AttributeSet?) : super(context, attrs) {init()}
     constructor(context: Context) : this(context, null)
 
     private var mPaint = Paint()
+
     private fun init() {
         mPaint.setStyle(Paint.Style.FILL_AND_STROKE);
         mPaint.color = Color.argb(85,0,0,255)
     }
-
-
 
     override fun onLayout(changed: Boolean, left: Int, top: Int, right: Int, bot: Int)
     {
@@ -43,8 +44,8 @@ class CustomView: AnkoLogger,View {
         mCircle.delta = DELTA
         mCircle.move()
         canvas?.drawCircle(mCircle.cx, mCircle.cy, mCircle.rad, mPaint)
-        mCircle.comptB
-        mCircle.comptH
+        H = mCircle.comptH
+        B = mCircle.comptB
         invalidate()
     }
     override fun onTouchEvent(event: MotionEvent?) :Boolean{
@@ -55,5 +56,4 @@ class CustomView: AnkoLogger,View {
         }
         return true
     }
-
 }
