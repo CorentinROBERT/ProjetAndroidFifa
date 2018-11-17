@@ -3,11 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.heartrate.MainActivity" >
     <item
-        android:id="@+id/action_settings"
-        android:icon="@drawable/ic_menu_manage"
-        android:title="@string/action_settings"
-        app:showAsAction="ifRoom"/>
-    <item
         android:id="@+id/citation"
         android:icon="@color/colorAccent"
         android:title="@string/citations"
