@@ -112,6 +112,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.EDFs ->{
                 startActivity(Intent(this,Edf::class.java))
             }
+            R.id.matchGame ->{
+                replace(matchFragment())
+            }
         }
         drawer_layout.closeDrawer(GravityCompat.START)
         return true

@@ -14,8 +14,19 @@
             </menu>
         </item>
     </group>
+    <group>
+        <item android:title="@string/jeux">
+            <menu>
+                <item
+                    android:id="@+id/matchGame"
+                    android:icon="@drawable/ic_soccer_field"
+                    android:title="@string/match_game"
+                    />
+            </menu>
+        </item>
+    </group>
     <group android:checkableBehavior="single">
-        <item android:title="Internet site">
+        <item android:title="Site internet FIFA 19">
             <menu>
                 <item
                     android:id="@+id/Futbin"
