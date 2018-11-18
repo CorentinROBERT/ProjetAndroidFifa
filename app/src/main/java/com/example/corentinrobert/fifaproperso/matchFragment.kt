@@ -20,7 +20,5 @@ class matchFragment : Fragment(),AnkoLogger {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        lblScoreB.text = CustomView.B.toString()
-        lblScoreH.text = CustomView.H.toString()
     }
 }

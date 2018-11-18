@@ -8,6 +8,7 @@ import android.graphics.Paint
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
+import android.widget.Toast
 import org.jetbrains.anko.AnkoLogger
 
 
@@ -50,9 +51,7 @@ class CustomView: AnkoLogger,View {
     }
     override fun onTouchEvent(event: MotionEvent?) :Boolean{
         if (event != null && event.action == MotionEvent.ACTION_DOWN) {
-            mCircle.cx=event.x.toFloat()
-            mCircle.cy=event.y.toFloat()
-
+            Toast.makeText(context, "Score du Haut : "+H.toString() + " Score du Bas : "+B.toString(), Toast.LENGTH_LONG).show()
         }
         return true
     }
