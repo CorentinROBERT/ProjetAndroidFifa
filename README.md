@@ -11,7 +11,7 @@ Projet de rendu en relation avec le jeu vidéo Fifa et autour du football
 
 La page principale est composé de 2 cards qui sont des webView pour aller sur des sites en rapport avec le marché des transferts ainsi que les résultats / calendrier de la ligue 1 (Championnat français)
 
-![image](https://user-images.githubusercontent.com/37982988/48676642-cf7d7800-eb69-11e8-9d92-6a1717570aeb.png)
+![image](https://user-images.githubusercontent.com/37982988/48676955-4f0d4600-eb6e-11e8-82cf-f4f5520aa9f9.png)
 
 Le menu latéral gauche est composé de 7 parties :<br>
 
@@ -42,12 +42,12 @@ Screen Photo Picker :<br>
  ![image](https://user-images.githubusercontent.com/37982988/48676641-cf7d7800-eb69-11e8-800a-c2333a872b7a.png)
   
  Le menu de droite Affiche des citations liés à des footballeurs ou entraineurs célèbres :
- 
+ ![image](https://user-images.githubusercontent.com/37982988/48676642-cf7d7800-eb69-11e8-9d92-6a1717570aeb.png)
  ![image](https://user-images.githubusercontent.com/37982988/48676643-cf7d7800-eb69-11e8-9bb8-90da204e12d3.png)
  
  <br><br><br>
  
- <strong>Autheur : Corentin ROBERT</strong>
+ <strong>Autheur : Corentin ROBERT</strong><br>
  <strong>Reviewer : Lisa-Marie DEMMER</strong>
  
  <strong>Projet de Lisa-Marie : <a href="https://github.com/Haeliss/ApplicationProjet">Lien</a></strong>
