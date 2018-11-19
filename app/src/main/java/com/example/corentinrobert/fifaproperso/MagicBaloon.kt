@@ -1,5 +1,10 @@
 package com.example.corentinrobert.fifaproperso
 
+import android.support.v7.app.AppCompatActivity
+import android.widget.Toast
+import com.example.corentinrobert.fifaproperso.CustomView.Companion.H
+import org.jetbrains.anko.*
+
 
 data class MagicBaloon(val maxX: Float, val maxY: Float,var delta: Int = 10, var cx: Float = 50F, var cy: Float = 50F, val rad: Float = 40F){
     var dx = delta
